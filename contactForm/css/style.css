@@ -1,0 +1,79 @@
+body{
+    background-color: #F4F7FA;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+    margin-top:150px;
+}
+.container div{
+    display: inline-block;
+}
+.leftBlock{
+    position: relative;
+    left:0;
+    width: 450px;
+    top:-100px;
+}
+.rightBlock{
+    position: relative;
+    width: 550px;
+    left:50px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.container .leftBlock p{
+    font-size: 16px;
+    color: #8f8f8f;
+    padding: 10px 0;
+    line-height: 1.8em;
+}
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.rightBlock input{
+    width: 220px;
+    padding: 18px 10px;
+    margin-top: 15px;
+    margin-right:20px;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid #e6e6e6 ;
+    border-radius: 3px;
+}
+ #multiLine{
+    height: 100px;
+    width: 485px;
+}
+::placeholder{
+    color:#B1B1B1;
+    opacity: 1;
+}
+.rightBlock button{
+    padding: 12px;
+    margin-top: 30px;
+    width: 150px;
+    border-radius: 200px;
+    border:2px solid #6630E3;
+    background-color: #6630E3;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    transition: 0.4s;
+    box-shadow: 0 20px 30px 0 rgba(67,37,204,.2);
+}
+.rightBlock button:hover {
+    background-color: transparent;
+    color: #6630E3;
+    transition: 0.4s;
+}
+.rightBlock input:focus{
+    outline: none;
+    border: 1px solid #6630E3;
+}
